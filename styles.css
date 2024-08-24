@@ -1,0 +1,141 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 69px;
+    display: block;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid seashell;
+}
+
+.image-logo {
+    height: 50px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: seashell;
+}
+
+.nav {
+    height: 100%;
+    float: right;
+    margin: 0 auto;
+}
+
+.nav a {
+    height: 100%;
+    float: left;
+    padding: 20px 20px;
+}
+
+.nav a li {
+    height: 100%;
+    text-decoration: underline;
+    color: seashell;
+    list-style: none;
+}
+
+.mission-class {
+    text-align: center;
+    background-image: url('img-mission-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    display: flex;
+    margin: 40px auto;
+
+
+}
+
+.text {
+    color: seashell;
+    width: 100%;
+    margin: auto;
+    background-color: black;
+}
+
+.featured {
+    
+}
+
+.feature {
+    display: flex;
+    background-color: black;
+    max-width: 980px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.featured-image img {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+    flex-basis: 30%;
+}
+
+.banner {
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-image: url('./img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    
+
+}
+
+.banner-top {
+    padding-bottom: 15px;
+}
+
+.location-container {
+    max-width: 980px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.location-box {
+    background-color: black;
+    opacity: 1;
+    height: 300px;
+    margin-bottom: auto;
+    flex-basis: 30%;
+}
+
+.contact-us {
+    max-width: 1200px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    background-color: black;
+    color: seashell;
+    justify-content: center;
+}
+
+footer {
+    text-align: left;
+    display: block;
+    padding-left: 20px;
+    color: seashell; 
+}
+
+
+
+
+
